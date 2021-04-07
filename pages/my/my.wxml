@@ -1,0 +1,25 @@
+<!--pages/my/my.wxml-->
+<view class="bg-gradual-blue padding" style="height:80%;">
+<view class="bg-gradual-blue padding flex justify-center" style="height:80%;">
+	<view class="cu-avatar xl round " style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg);"></view>
+</view>
+	<view class="flex justify-center margin-top-sm margin-bottom-sm">
+	<text class="justify-center">这里是微信昵称</text>
+	</view>
+</view>
+<view class="cu-list menu card-menu margin-top xs" bindtap="jumpmyservic">
+	<view class="cu-item no-card" :class="menuArrow?'arrow':''">
+		<view class="content">
+			<text class="cuIcon-circlefill text-grey"></text>
+			<text class="text-grey">我的报修</text>
+		</view>
+	</view>
+</view>
+<view class="cu-list menu card-menu margin-top xs" bindtap="jumpservic">
+	<view class="cu-item no-card" :class="menuArrow?'arrow':''">
+		<view class="content">
+			<text class="cuIcon-circlefill text-grey"></text>
+			<text class="text-grey">维修员入口</text>
+		</view>
+	</view>
+</view>

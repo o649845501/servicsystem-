@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/formstudent/formstudent",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/servic/servic",
+    "pages/servic/yesservic/yesservic"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "热院报修",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "image/22.png",
+        "iconPath": "image/2.png",
+        "pagePath": "pages/formstudent/formstudent",
+        "text": "报修"
+      },
+      {
+        "selectedIconPath": "image/11.png",
+        "iconPath": "image/1.png",
+        "pagePath": "pages/my/my",
+        "text": "个人中心"
+      }
+    ]
+  }
+}
